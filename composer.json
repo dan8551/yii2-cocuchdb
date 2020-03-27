@@ -24,7 +24,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "dan8551\\couchdb\\": "src" }
+        "psr-4": { "yii\\couchdb\\": "src", "yii\\couchdb\\tests": "tests" }
     }
 }
 
