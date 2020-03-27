@@ -1,0 +1,30 @@
+{
+    "name": "dan8551/yii2-couchdb",
+    "description": "CouchDB extension for the Yii framework",
+    "keywords": ["yii2", "couchdb", "active-record"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dan Orton",
+            "email": "dan.orton84@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.14",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.27|~5.7.21|^6.2"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "dan8551\\couchdb\\": "src" }
+    }
+}
+
